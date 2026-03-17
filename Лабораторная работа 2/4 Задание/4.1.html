@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMarket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+header {
+    background-color: #f7cdcd;
+ padding: 20px;
+ border-bottom: 3px solid #d99c9c;
+}
+header nav a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+header nav a:hover {
+text-decoration: underline;
+color: #0000ff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Center {
+    display: flex;
+    gap: 20px;
+    background-image: url('prev.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+footer {
+    border-top: 3px solid #d99c9c;
+    background-color: #f7cdcd;
+    padding: 20px;
+}
+footer a {
+    padding: 6px 10px;
+     text-decoration: none;
+     color: #2d2d3a;
+}
+footer a :hover {
+    text-decoration: underline;
+color: #0000ff;
+}
+.catalog{
+            margin-top: 20px;
+            background: #8e44ad;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+
+.catalog:hover {
+    background: #6c2f86;
+    }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            width: 650px;
+            margin: 0 auto;
+            background: rgb(244, 244, 246);
+            border: 1px solid #ccc;
+            padding: 20px;
+           
+        }
+        .main-image img {
+            width: 350px;
+            margin-bottom: 20px;
+            margin-left: 125px;
+        }
+        .preview {
+            list-style: none;
+        }
+        .preview li {
+                display: inline-block;
+                border: 2px solid transparent;
+            }
+        .preview img {
+                width: 90px;
+                padding: 10px;
+            }
+        .preview li:hover {
+                border: 2px solid orange;
+            }
+        .otst {
+            margin-bottom: 20px;
+        }
+        .korz {
+            margin: 5px 20px 10px;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>TechMarket</h2>
+       <form>
+        <input type="search" size="40">
+        <button>Поиск</button>
+       </form> 
+       <nav>
+        <a href="4Задание.html">Главная</a>
+        <a href="4Задание.html">Каталог</a>
+        <a href="#3">О нас</a>
+        <a href="#3">Контакты</a>
+        <a href="#">Корзина</a>
+       </nav> 
+    </header>
+
+    <main>
+        
+        <section>
+        <h2 class="otst">Популярные товары</h2>
+        <div class="main-image">
+            <img src="2.jpg" alt="MacBook">
+           
+        </div>
+        <p><b> 11" Планшет Apple iPad (11th Gen) Wi-Fi 128 ГБ серебристый</b></p>
+                
+                    <ul>
+                    <li>Дисплей: 2360x1640, IPS, 60 Гц</li>
+                    <li>  ОС:iPadOS 18</li>
+                    <li>   Процессор:Apple A16 Bionic, 5x3.46 ГГц</li>
+                   <li>  Память (ОЗУ/ПЗУ): 6 ГБ/128 ГБ </li>
+                    <li> Связь: Wi-Fi 4 (802.11n), 5 (802.11ac), 6 (802.11ax)</li>
+                    <li>  Питание: 7606 мА*ч</li>
+                    </ul>
+                
+                <p>
+                    39 999 ₽
+                </p>
+                <button class="korz">Добавить в корзину</button>
+
+        <ul class="preview">
+
+            <li>
+                <a href="product.html">
+                    <img src="1.jpg" alt="Iphone">
+                </a>
+            </li>
+
+            <li>
+                <a href="4.1.html">
+                    <img src="2.jpg" alt="15">
+                </a>
+            </li>
+
+            <li>
+                <a href="4.2.html">
+                    <img src="3.png" alt="17">
+                </a>
+            </li>
+
+
+        </ul>
+                
+            
+        
+        </section>
+    </main>
+    <footer>
+    <p id="3">Контакты: <a href="mailto: TechMarket@gmail.com">TechMarket@gmail.com</a>  <a href="tel: +89999999999"> 8 999 999 99 99</a></p>
+    <p>&copy; 2026 TechMarket. Все права защищены.</p>
+</footer>
+</body>
+</html>
